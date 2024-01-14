@@ -49,7 +49,7 @@ if ($result->num_rows > 0) {
                         <h6><?php echo $detail["status_produk"] ?></h6>
 
                         <!-- Button untuk mengarahkan ke WhatsApp -->
-                        <a href="https://api.whatsapp.com/send?phone=6281255944032&text=Halo%2C%20saya%20tertarik%20dengan%20produk%20ini." class="btn btn-success">Hubungi via WhatsApp</a>
+                       <a href="https://wa.me/6281255944032?text=Hai,%20Saya%20ingin%20booking%20Produk%20Anda.%0A%0ANama%20Produk%20:%20<?= $p->nama_produk ?>%0AHarga%20:%20<?= number_format($p->harga) ?>%0A.%20apakah%20masih%20ada?%20 " class="btn btn-success">Hubungi Via WhatsApp</a>
                     </div>
                 </div>
             </div>
